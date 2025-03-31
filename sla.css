@@ -1,4 +1,4 @@
-h1{
+#nome{
     text-align: center;
     color: orange;
 }
@@ -6,21 +6,27 @@ h1{
 .center{
     text-align: center;
 }
-img{
+#img{
     display: block;
     margin: auto;
 }
-div.cinza:hover{
+.cinza:hover{
     background-color: gray;
-    transition: 1.5;
+    transition: 1.5s;
 }
 p{
     font-family: Verdana;
 }
-  
-ol {
+ol{
     list-style-type: upper-alpha;
 }
-.azul{
+div.azul{
     background-color: aqua;
 }
+.mydiv{
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    background-color: lightgray;
+    text-align: center;
+} 
