@@ -7,8 +7,8 @@
     text-align: center;
 }
 #img{
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 .cinza:hover{
     background-color: gray;
@@ -23,7 +23,7 @@ ol{
 div.azul{
     background-color: aqua;
 }
-.mydiv{
+div.mydiv{
     border-style: dotted;
     border-color: black;
     border-width: 2px;
